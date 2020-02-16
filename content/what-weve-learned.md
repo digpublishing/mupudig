@@ -1,4 +1,5 @@
 ---
+weight: 810
 title: "Online Publishing: What We’ve Learned and Where We’re Going"
 event: AAM
 date: 2017

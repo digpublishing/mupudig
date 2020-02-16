@@ -1,4 +1,5 @@
 ---
+weight: 990
 title: "E-books in the Visual Arts"
 event: ARLIS/NA
 date: 2011-03-27

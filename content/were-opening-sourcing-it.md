@@ -1,4 +1,5 @@
 ---
+weight: 740
 title: "“We’re Open Sourcing It”: Mapping the Creation and Reuse of Open Source Code within the Museum Sector"
 event: MCN
 date: 2018-11-15

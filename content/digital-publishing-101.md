@@ -1,4 +1,5 @@
 ---
+weight: 900
 title: "Digital Publishing 101: The Complete Picture from EPUB to App"
 event: NMPS
 date: 2014-06-13

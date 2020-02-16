@@ -1,4 +1,5 @@
 ---
+weight: 980
 title: "E-Books for Museums: How to Make Them, and Why You Should"
 event: MW
 date: 2011-04-06

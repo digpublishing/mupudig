@@ -1,4 +1,5 @@
 ---
+weight: 860
 title: "Digital Publishing Studio"
 event: MCN
 date: 2014-06-13

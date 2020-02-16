@@ -1,4 +1,5 @@
 ---
+weight: 830
 title: "Breaking Almost Everything: The Current Practice and Future Potential of Digital Publishing"
 event: "Publishing Art History Digitally: The Present and Future"
 date: 2016-10-14

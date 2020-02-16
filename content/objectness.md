@@ -1,4 +1,5 @@
 ---
+weight: 870
 title: "Experience, Traverse, Inhabit: Bringing a Sense of Place to Digital Navigation"
 event: MCN
 date: 2015-11-06

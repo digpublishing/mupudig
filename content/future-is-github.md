@@ -1,4 +1,5 @@
 ---
+weight: 880
 title: The Future of Publishing is GitHub
 event: MCN
 date: 2014-11-22

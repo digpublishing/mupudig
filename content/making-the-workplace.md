@@ -1,4 +1,5 @@
 ---
+weight: 820
 title: "Making the Workplace We Want"
 event: MCN
 date: 2016-11-04

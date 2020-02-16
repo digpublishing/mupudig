@@ -1,4 +1,5 @@
 ---
+weight: 780
 title: "Quire Digital Publishing Platform: Demo and Q&A"
 event: NPMS
 date: 2018-05-03

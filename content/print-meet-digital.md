@@ -1,4 +1,5 @@
 ---
+weight: 910
 title: "Print Meet Digital, Digital Meet Print: A Matchmaking"
 event: MCN
 date: 2013-11-21

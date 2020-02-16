@@ -1,4 +1,5 @@
 ---
+weight: 720
 title: "Making More of Open Source"
 event: MCN
 date: 2019-11-06

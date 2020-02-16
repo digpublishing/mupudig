@@ -1,4 +1,5 @@
 ---
+weight: 850
 title: "Closer to Metal"
 event: ebookcraft
 date: 2016-03-31

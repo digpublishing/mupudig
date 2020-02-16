@@ -1,4 +1,5 @@
 ---
+weight: 730
 title: "Recentering the User: A Study of Digital Publications from Four Museums"
 event: MCN
 date: 2019-11-06

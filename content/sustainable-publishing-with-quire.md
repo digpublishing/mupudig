@@ -1,4 +1,5 @@
 ---
+weight: 790
 title: "Sustainable Multi-Format Digital Publishing with Quire"
 event: MW
 date: 2018-04-18

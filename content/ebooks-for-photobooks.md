@@ -1,4 +1,5 @@
 ---
+weight: 950
 title: "What E-books Can Do for Photobooks"
 event: SPE
 date: 2012-03-24

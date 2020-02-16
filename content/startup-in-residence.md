@@ -1,4 +1,5 @@
 ---
+weight: 930
 title: "A Startup-in-Residence"
 event: MCN
 date: 2012-11-10

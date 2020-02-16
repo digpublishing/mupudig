@@ -1,4 +1,5 @@
 ---
+weight: 890
 title: "You’re a Goddamn Tugboat Captain"
 event: MCN
 date: 2014-11-19

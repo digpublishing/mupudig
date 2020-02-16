@@ -1,4 +1,5 @@
 ---
+weight: 940
 title: "Art Publishers, Artists and E-books"
 event: ARLIS/NA
 date: 2012-04-01

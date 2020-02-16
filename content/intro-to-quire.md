@@ -1,4 +1,5 @@
 ---
+weight: 770
 title: "An Introduction to Quire"
 event: Library Publishing Forum
 date: 2018

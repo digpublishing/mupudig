@@ -1,4 +1,5 @@
 ---
+weight: 795
 title: "Musetech: An Ideal Syllabus"
 event: MCN
 date: 2017-11-10

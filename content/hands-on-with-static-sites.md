@@ -1,4 +1,5 @@
 ---
+weight: 800
 title: "Hands on with Static-Site Generators: Publishing Modern Sites with a 1990s Approach"
 event: MCN
 date: 2017-11-07

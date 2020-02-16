@@ -1,4 +1,5 @@
 ---
+weight: 815
 title: "Bringing Books Online"
 event: Museums and the Web
 date: 2017-04-20

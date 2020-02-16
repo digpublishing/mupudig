@@ -1,4 +1,5 @@
 ---
+weight: 825
 title: "Sustaining Innovation: Tips & Techniques to Keep Momentum in your Organization"
 event: MCN
 date: 2016-11-03
