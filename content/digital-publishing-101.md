@@ -10,11 +10,13 @@ other_speakers:
   - Edyta Lewicka, Designer, Potion 
 links:
 - title: Digital Publishing 101 (chart) 
+  options:
   - link_type: Google Sheets
     link: https://docs.google.com/spreadsheets/d/1xzZnT6TDPw-7nnrffDeNhdJ0w3wQdUweBHGfzQMEpCk/edit#gid=2085398171
   - link_type: PDF
     link: /downloads/digital-publishing-101--chart.pdf
 - title: “Web. Books. Web Books.” (slides)
+  options:
   - link_type: PDF
     link: /downloads/web-books-webbooks.pdf
 # Emailed Nikki about possibility of getting the recording    

@@ -6,6 +6,7 @@ location: Cleveland
 type: paper
 links:
 - title: Paper
+  options:
   - link_type: PDF
     link: /downloads/bringing-books-online.pdf
   - link_type: Web

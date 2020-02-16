@@ -6,9 +6,11 @@ location: Dallas
 type: lightning talk
 links:
 - title: Video
+  options:
   - link_type: YouTube
     link: https://youtu.be/toRnpDFlUmY
 - title: Slides 
+  options:
   - link_type: PDF
     link: /downloads/tugboat-captain.pdf
   - link_type: PPTX

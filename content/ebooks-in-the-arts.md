@@ -6,6 +6,7 @@ location: Minneapolis
 type: poster session
 links:
 - title: Poster
+  options:
   - link_type: PDF
     link: /downloads/ebooks-in-the-arts.pdf
 ---

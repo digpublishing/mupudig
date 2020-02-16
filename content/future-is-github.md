@@ -8,16 +8,18 @@ other_speakers:
   - Sara Angel, founding Director, Art Canada Institute / Institut de l’art du Canada
   - Curtis Fletcher, Project Manager, The Alliance for Networking Visual Culture 
 links:
-- title: Slides 
-  - link_type: Online
-    link: http://geealbers.github.io/future-of-digpublishing-is-github/
-  - link_type: PDF
-    link: /downloads/future-is-github.pdf
-  - link_type: GitHub Repo
-    link: https://github.com/geealbers/future-of-digpublishing-is-github
-- title: Full Session Recording (slides and audio)
-  - link_type: YouTube
-    link: https://youtu.be/SA8iww30pUI
+  - title: Slides 
+    options:
+    - link_type: Online
+      link: http://geealbers.github.io/future-of-digpublishing-is-github/
+    - link_type: PDF
+      link: /downloads/future-is-github.pdf
+    - link_type: GitHub Repo
+      link: https://github.com/geealbers/future-of-digpublishing-is-github
+  - title: Full Session Recording (slides and audio)
+    options:
+    - link_type: YouTube
+      link: https://youtu.be/SA8iww30pUI
 ---
 
 I organized this panel and gave the titular talk. Shortly after I’d arrived at the Getty the year prior, I wrote “https://github/gettypubs” on a piece of paper and taped it up to my office wall. At the time, the Getty didn’t have a GitHub presence of any kind, I didn’t even have a GitHub account, but I knew that’s where we needed to be if we were going to pursue the kind of open, web-based publishing I saw as our future. And likewise if we were going to build any kind of community around that work. This talk, along with [one given at NMPS earlier in the year](/talks/digital-publishing-101.md), is my first foray into defining that move.

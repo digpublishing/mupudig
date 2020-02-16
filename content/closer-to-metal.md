@@ -6,9 +6,11 @@ location: Toronto
 type: talk
 links:
 - title: Slides
+  options:
   - link_type: PDF
     link: /downloads/closer-to-metal.pdf
 - title: Video
+  options:
   - link_type: YouTube
     link: https://youtu.be/soW6sd5pBt4
 ---

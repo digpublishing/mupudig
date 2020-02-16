@@ -12,11 +12,13 @@ other_speakers:
   - Sarah Victoria Turner, Deputy Director for Research, Paul Mellon Centre; Editor, British Art Studies
 links:
 - title: Slides 
+  options:
   - link_type: PDF
     link: /downloads/breaking-almost-everything.pdf
   - link_type: PPTX
     link: /downloads/breaking-almost-everything.pptx
 - title: Full Recording
+  options:
   - link_type: Vimeo
     link: https://vimeo.com/187873022
 ---

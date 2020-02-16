@@ -9,9 +9,11 @@ other_speakers:
   - Rob Stenzinger, UX Designer, Coder, and Facilitator, Enterprise Growth Initiatives Team, Target
 links:
 - title: Session Audio
+  options:
   - link_type: YouTube
     link: https://youtu.be/m8ahn65ra8c
 - title: “Objectness” Slides
+  options:
   - link_type: Google Slides
     link: https://docs.google.com/presentation/d/1CAc0wbV3CW3o5esY4U2A1pGsYsg-Gaa0oFAV2llEOv0/edit?usp=sharing
   - link_type: PDF

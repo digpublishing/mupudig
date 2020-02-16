@@ -10,6 +10,7 @@ other_speakers:
   - Kirsten Southwell, Design Strategy Consultant 
 links:
 - title: Slides
+  options:
   - link_type: Google Slides
     link: https://docs.google.com/presentation/d/12Ojao5HtRtajMD_Nfe7HCg3LA-QlmfVItxK7i-akbiY/edit?usp=sharing
   - link_type: PDF

@@ -8,6 +8,7 @@ other_speakers:
   - Kathryn Cody, Manager of IT Educational Technologies, J. Paul Getty Trust 
 links:
 - title: Slides
+  options:
   - link_type: Google Slides
     link: https://docs.google.com/presentation/d/1Ae9hFNd8WKU1nptJh660Z-sQPN_rp5aNosQM9sgFisI/edit?usp=sharing
   - link_type: PDF

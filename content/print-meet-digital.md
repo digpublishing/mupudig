@@ -1,5 +1,5 @@
 ---
-title: Print Meet Digital, Digital Meet Print: A Matchmaking
+title: "Print Meet Digital, Digital Meet Print: A Matchmaking"
 event: MCN
 date: 2013-11-21
 location: Montreal
@@ -10,12 +10,15 @@ other_speakers:
   - Robert Weisberg, Senior Project Manager, Editorial Department, The Metropolitan Museum of Art 
 links:
 - title: Session Recording (slides and audio)
+  options:
   - link_type: YouTube
     link: https://youtu.be/Gp67HS3m_Pg
 - title: Intro Slides
+  options:
   - link_type: PDF
     link: /downloads/print-meet-digital--intro.pdf
 - title: Audience Participation Cards
+  options:
   - link_type: PDF
     link: /downloads/print-meet-digital--audience-cards.pdf
 ---
