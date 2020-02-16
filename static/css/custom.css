@@ -1,0 +1,10 @@
+.card-content .type,
+.card-content .date {
+  font-size: .7em;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.quire-contents-list.grid ul li .card-content p.type,
+.quire-contents-list.grid ul li .card-content p.date {
+  padding-top: 0;
+}
