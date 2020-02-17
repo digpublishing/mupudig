@@ -170,10 +170,10 @@
         {{- end -}}
       {{- end -}}
       <div class="card-content">
-        {{- with .Page.Params.type }}<p class="type">{{ upper . }}</p>{{ end }}
-        {{- with .Page.Params.date }}<p class="date">{{ dateFormat "Jan 2, 2006" . }}</p>{{ end }}
+        {{- with .Page.Params.label }}<p class="label">{{ upper . }}</p>{{ end }}
+        {{- with .Page.Params.date }}<p class="date">{{ dateFormat "January 2, 2006" . }}</p>{{ end }}
         <div class="title">
-        {{- with .Page.Params.label }}{{ . }}{{ $.Site.Params.pageLabelDivider }}{{ end }}{{ if and .Page.Params.short_title (in .class "brief")}}{{ .Page.Params.short_title | markdownify }}{{ else if in .class "brief" }}{{ .Page.Title | markdownify }}{{ else }}{{ partial "page-title.html" . | markdownify }}{{ if .Page.Params.contributor }}<span class="contributor"> — {{ partial "contributor-list.html" (dict "range" .Page.Params.contributor "contributorType" "all" "listType" "string" "Site" .Site) }}</span>{{- end -}}{{- end -}}<span class="arrow remove-from-epub">&nbsp;{{- partial "icon.html" (dict "type" "arrow-forward" "description" "") -}}</span></div>
+        {{ if and .Page.Params.short_title (in .class "brief")}}{{ .Page.Params.short_title | markdownify }}{{ else if in .class "brief" }}{{ .Page.Title | markdownify }}{{ else }}{{ partial "page-title.html" . | markdownify }}{{ if .Page.Params.contributor }}<span class="contributor"> — {{ partial "contributor-list.html" (dict "range" .Page.Params.contributor "contributorType" "all" "listType" "string" "Site" .Site) }}</span>{{- end -}}{{- end -}}<span class="arrow remove-from-epub">&nbsp;{{- partial "icon.html" (dict "type" "arrow-forward" "description" "") -}}</span></div>
       </div>
     </div></a>
 

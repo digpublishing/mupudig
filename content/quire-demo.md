@@ -4,7 +4,7 @@ title: "Quire Digital Publishing Platform: Demo and Q&A"
 event: NPMS
 date: 2018-05-03
 location: San Francisco
-type: workshop
+label: Workshop
 links:
 ---
 

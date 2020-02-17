@@ -34,7 +34,7 @@ markup:
 params:
   searchEnabled: true
   licenseIcons: true
-  pageLabelDivider: ". "
+  pageLabelDivider: ": "
   citationPageLocationDivider: ", "
   contributorByline: name-title # name | name-title | false
   displayBiblioShort: true

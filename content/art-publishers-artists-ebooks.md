@@ -4,7 +4,7 @@ title: "Art Publishers, Artists and E-books"
 event: ARLIS/NA
 date: 2012-04-01
 location: Toronto
-type: talk
+label: Talk
 other_speakers:
   - Amy Ballmer, Graduate Center, City University of New York
   - Ray Anne Lockard, University of Pittsburgh

@@ -4,7 +4,7 @@ title: "Sustaining Innovation: Tips & Techniques to Keep Momentum in your Organi
 event: MCN
 date: 2016-11-03
 location: New Orleans
-type: panel
+label: Panel
 other_speakers:
   - Emily Lytle-Painter, Content and Experience Strategist, Independent
   - Douglas Hegley, Director of Media & Technology, Minneapolis Institute of Art

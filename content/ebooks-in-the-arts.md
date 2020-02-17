@@ -4,7 +4,7 @@ title: "E-books in the Visual Arts"
 event: ARLIS/NA
 date: 2011-03-27
 location: Minneapolis
-type: poster session
+label: Poster Session
 links:
 - title: Poster
   options:

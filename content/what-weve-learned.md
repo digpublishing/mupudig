@@ -4,7 +4,7 @@ title: "Online Publishing: What We’ve Learned and Where We’re Going"
 event: AAM
 date: 2017
 location: St. Louis
-type: talk
+label: Talk
 links:
 - title: Slides
   options:

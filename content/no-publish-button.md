@@ -4,7 +4,7 @@ title: "There is No ‘Publish’ Button"
 event: NMPS
 date: 2016-05-13
 location: Chicago
-type: panel
+label: Panel
 other_speakers:
   - Joseph Mohan, Associate Director of Production, The Art Institute of Chicago
   - Kris Thayer, Senior Designer, Minneapolis Institute of Art 

@@ -4,7 +4,7 @@ title: "Digital Publishing 101: The Complete Picture from EPUB to App"
 event: NMPS
 date: 2014-06-13
 location: Boston
-type: panel
+label: Panel
 other_speakers:
   - Tina Henderson, Digital Publishing Consultant and Production Artist
   - Elisa Leshowitz, Director of Publisher Services, ARTBOOK/D.A.P.

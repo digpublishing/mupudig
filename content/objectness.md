@@ -4,7 +4,7 @@ title: "Experience, Traverse, Inhabit: Bringing a Sense of Place to Digital Navi
 event: MCN
 date: 2015-11-06
 location: Minneapolis
-type: panel
+label: Panel
 other_speakers:
   - Emily Lytle-Painter, Senior Digital Content Manager, Los Angeles County Museum of Art
   - Rob Stenzinger, UX Designer, Coder, and Facilitator, Enterprise Growth Initiatives Team, Target

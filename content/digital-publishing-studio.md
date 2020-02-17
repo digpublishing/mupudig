@@ -4,7 +4,7 @@ title: "Digital Publishing Studio"
 event: MCN
 date: 2014-06-13
 location: Minneapolis
-type: workshop 
+label: Workshop 
 links:
 - title: Digital Publishing 101 (chart) 
   options:

@@ -4,7 +4,7 @@ title: "Making the Workplace We Want"
 event: MCN
 date: 2016-11-04
 location: New Orleans
-type: workshop
+label: Workshop
 other_speakers:
   - Annelisa Stephan, Manager for Digital Engagement, J. Paul Getty Trust
 ---

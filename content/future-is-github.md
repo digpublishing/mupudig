@@ -4,7 +4,7 @@ title: The Future of Publishing is GitHub
 event: MCN
 date: 2014-11-22
 location: Dallas
-type: panel
+label: Panel
 other_speakers:
   - Sara Angel, founding Director, Art Canada Institute / Institut de l’art du Canada
   - Curtis Fletcher, Project Manager, The Alliance for Networking Visual Culture 

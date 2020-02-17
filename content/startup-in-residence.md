@@ -4,7 +4,7 @@ title: "A Startup-in-Residence"
 event: MCN
 date: 2012-11-10
 location: Seattle
-type: talk
+label: Talk
 other_speakers:
   - Sarah Hromack, Head of Digital Media, Whitney Museum of American Art
   - Erica Gangsei, Manager of Interpretive Media, San Francisco Museum of Modern Art 

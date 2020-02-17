@@ -4,7 +4,7 @@ title: "“We’re Open Sourcing It”: Mapping the Creation and Reuse of Open S
 event: MCN
 date: 2018-11-15
 location: Denver
-type: talk 
+label: Talk 
 links:
 ---
 

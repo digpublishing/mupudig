@@ -4,7 +4,7 @@ title: "You’re a Goddamn Tugboat Captain"
 event: MCN
 date: 2014-11-19
 location: Dallas
-type: lightning talk
+label: Lighting Talk
 links:
 - title: Video
   options:

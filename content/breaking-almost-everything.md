@@ -4,7 +4,7 @@ title: "Breaking Almost Everything: The Current Practice and Future Potential of
 event: "Publishing Art History Digitally: The Present and Future"
 date: 2016-10-14
 location: New York
-type: talk
+label: Talk
 other_speakers:
   - Colby Chamberlain, Contributing Editor, Triple Canopy
   - Martina Droth, Deputy Director of Research and Curator of Sculpture, Yale Center for British Art; Editor, British Art Studies

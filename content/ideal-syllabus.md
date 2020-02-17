@@ -4,7 +4,7 @@ title: "Musetech: An Ideal Syllabus"
 event: MCN
 date: 2017-11-10
 location: Pittsburgh
-type: session
+label: Session
 other_speakers:
   - Kathryn Cody, Manager of IT Educational Technologies, J. Paul Getty Trust 
 links:

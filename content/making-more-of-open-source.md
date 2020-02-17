@@ -4,7 +4,7 @@ title: "Making More of Open Source"
 event: MCN
 date: 2019-11-06
 location: San Diego
-type: panel 
+label: Panel 
 other_speakers:
   - Megan Forbes, Program Manager, CollectionSpace
   - Hélène Martin, CTO, Nafundi 

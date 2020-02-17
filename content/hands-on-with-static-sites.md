@@ -4,7 +4,7 @@ title: "Hands on with Static-Site Generators: Publishing Modern Sites with a 199
 event: MCN
 date: 2017-11-07
 location: Pittsburgh
-type: workshop
+label: Workshop
 other_speakers:
   - Eric Gardner, Digital Publication Developer, J. Paul Getty Trust 
 links:

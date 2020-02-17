@@ -4,7 +4,7 @@ title: "Sustainable Multi-Format Digital Publishing with Quire"
 event: MW
 date: 2018-04-18
 location: Vancouver
-type: workshop
+label: Workshop
 links:
 ---
 

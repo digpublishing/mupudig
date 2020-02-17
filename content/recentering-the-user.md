@@ -4,7 +4,7 @@ title: "Recentering the User: A Study of Digital Publications from Four Museums"
 event: MCN
 date: 2019-11-06
 location: San Diego
-type: panel 
+label: Panel 
 other_speakers:
   - Katie Reilly, William T. Ranney Director of Publishing, Philadelphia Museum of Art
   - Lauren Makholm, Assistant Director of Production, The Art Institute of Chicago

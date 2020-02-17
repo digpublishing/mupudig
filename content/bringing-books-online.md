@@ -4,7 +4,7 @@ title: "Bringing Books Online"
 event: Museums and the Web
 date: 2017-04-20
 location: Cleveland
-type: paper
+label: Paper
 links:
 - title: Paper
   options:
@@ -14,7 +14,7 @@ links:
     link: https://mw17.mwconf.org/paper/the-next-generation-of-online-publishing-building-on-what-weve-learned-together/
 ---
 
-I was to give a talk at MW entitled, “The Next Generation of Online Publishing: Building on What We’ve Learned Together”, but a bout of pneumonia kept me from it. The associated paper I wrote for it, however, remains.
+I was to label:a talk at MW entitled, “The Next Generation of Online Publishing: Building on What We’ve Learned Together”, but a bout of pneumonia kept me from it. The associated paper I wrote for it, however, remains.
 
 ## Abstract
 

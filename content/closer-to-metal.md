@@ -4,7 +4,7 @@ title: "Closer to Metal"
 event: ebookcraft
 date: 2016-03-31
 location: Toronto
-type: talk
+label: Talk
 links:
 - title: Slides
   options:

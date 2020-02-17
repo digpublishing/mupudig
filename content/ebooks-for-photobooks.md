@@ -4,7 +4,7 @@ title: "What E-books Can Do for Photobooks"
 event: SPE
 date: 2012-03-24
 location: San Francisco
-type: talk
+label: Talk
 ---
 
 ## Talk Description

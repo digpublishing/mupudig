@@ -1,10 +1,24 @@
-.card-content .type,
+/* Style labels and dates that were added to contents page grid */
+.card-content .label,
 .card-content .date {
-  font-size: .7em;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
 }
-.quire-contents-list.grid ul li .card-content p.type,
+.card-content .label {
+  font-size: .875rem;
+  letter-spacing: .5px;
+}
+.card-content .date {
+  font-style: italic;
+  margin-bottom: .875rem;
+}
+.quire-contents-list.grid ul li .card-content p.label,
 .quire-contents-list.grid ul li .card-content p.date {
   padding-top: 0;
+}
+
+/* Hide default arrow graphics on contents page */
+.quire-contents-list .menu-list a .arrow {
+  display: none;
 }

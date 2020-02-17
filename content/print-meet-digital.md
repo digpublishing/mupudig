@@ -4,7 +4,7 @@ title: "Print Meet Digital, Digital Meet Print: A Matchmaking"
 event: MCN
 date: 2013-11-21
 location: Montreal
-type: panel
+label: Panel
 other_speakers:
   - Pamela Horn, Head of Cross-Platform Publishing, Cooper-Hewitt National Design Museum
   - Steven Waldron, Art Director/Creative Director, Harvard Art Museums
