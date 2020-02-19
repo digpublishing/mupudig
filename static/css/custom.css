@@ -64,3 +64,15 @@
 .quire-page__header {
   color: #000000; 
 }
+.quire-page__header a {
+  color: #000000; 
+  border-bottom: 1px dotted #000000;
+}
+.quire-page__header a:hover {
+  color: #777 !important;
+  border-bottom: 1px solid #777 !important;
+}
+.quire-page__header.hero__image-caption {
+  font-size: .75em;
+  padding: .5rem;
+}
