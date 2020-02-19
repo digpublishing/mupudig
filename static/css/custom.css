@@ -60,6 +60,7 @@
 }
 .quire-page h2 {
   font-size: 1.5rem;
+  margin-top: 1.25rem !important;
 }
 .quire-page__header {
   color: #000000; 
@@ -75,6 +76,13 @@
 .quire-page__header.hero__image-caption {
   font-size: .75em;
   padding: .5rem;
+}
+
+/* Style blockquotes to be a bit more graphic */
+.quire-page__content .container .content blockquote {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: .75em 0 .75em 1.5em;
 }
 
 /* Style g-project-block shortcode */
@@ -98,9 +106,4 @@
 }
 .project-block ul a {
   margin: 0 .75rem;
-}
-
-/* Style g-other-speakers shortcode */
-.content ul.other-speakers {
-  margin-left: .5rem;
 }
