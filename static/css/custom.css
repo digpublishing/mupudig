@@ -1,6 +1,10 @@
 /* Style labels and dates that were added to contents page grid */
+.quire-contents-list.grid .title {
+  margin-bottom: 0;
+}
 .card-content .label,
-.card-content .date {
+.card-content .date,
+.card-content .reading-line {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -11,7 +15,7 @@
 }
 .card-content .date {
   font-style: italic;
-  margin-bottom: .875rem;
+  margin-bottom: .5rem;
 }
 .quire-contents-list.grid ul li .card-content p.label,
 .quire-contents-list.grid ul li .card-content p.date {
@@ -21,4 +25,42 @@
 /* Hide default arrow graphics on contents page */
 .quire-contents-list .menu-list a .arrow {
   display: none;
+}
+
+/* Reduce default size of content grid headings */
+.quire-contents-list.grid ul li .card.no-image .card-content {
+  font-size: 2em;
+  font-weight: 400;
+}
+.quire-contents-list.grid .title {
+  font-size: 2rem;
+  line-height: 1.125;
+  font-weight: 400;
+}
+
+/* Make card text color black instead of dark gray */
+.card,
+.label {
+  color: #333;
+}
+
+/* Style headings and page headers */
+.quire-page h1.quire-page__header__title {
+  font-weight: 400;
+  font-size: 2.75em;
+}
+.quire-page--cover h1.quire-page__header__title {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.quire-page__header {
+  font-family: 'Victor Mono', monospace;
+}
+.quire-page h2 {
+  font-size: 1.5rem;
+}
+.quire-page__header {
+  color: #000000; 
 }

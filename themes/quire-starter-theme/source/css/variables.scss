@@ -6,12 +6,17 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
-$accent-color: null;
+
+// Custom variable for geealbers site
+// -----------------------------------------------------------------------------
+$victor-mono: "Victor Mono", monospace;
+
+$accent-color: #777;
 $content-background-color: null; // main text area background color
 $secondary-background-color: null; // only for modern theme
 
 // Declare the theme: modern/classic
-$theme: modern;
+$theme: classic;
 
 // Declare the navbar color style: normal/accent
 $navbar: normal;
@@ -68,10 +73,10 @@ $print-entry-image-display: all; // first | all
 // Themes
 // -----------------------------------------------------------------------------
 // Declare theme variables
-$quire-primary-font: null; // body and menu text
-$quire-headings-font: null; // headings
-$quire-footnotes-font: null; // footnotes and page backmatter
-$quire-navigation-font: null; // navbar and next/prev buttons
+$quire-primary-font: $victor-mono; // body and menu text
+$quire-headings-font: $victor-mono; // headings
+$quire-footnotes-font: $victor-mono; // footnotes and page backmatter
+$quire-navigation-font: $victor-mono; // navbar and next/prev buttons
 
 @if $theme == classic {
   // Classic Theme
