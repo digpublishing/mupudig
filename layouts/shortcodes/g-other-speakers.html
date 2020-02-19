@@ -1,0 +1,8 @@
+{{- with .Page.Params.other_speakers -}}
+<h2>Other Speakers/Participants</h2>
+<ul class="other-speakers">
+{{- range . -}}
+<li>{{ . }}</li>
+{{- end -}}
+</ul>
+{{- end -}}

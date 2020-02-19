@@ -1,0 +1,10 @@
+<div class="project-block">
+<p class="project-info">{{- with .Page.Params.date }}<span class="date">{{ dateFormat "January 2, 2006" . }}</span> | {{ end }}{{- with .Page.Params.event }}<span class="event">{{ . }}</span> | {{ end }}{{- with .Page.Params.location }}<span class="location">{{ . }}</span>{{ end }}</p>
+{{- with .Page.Params.links -}}
+<ul class="project-links">
+{{- range . -}}
+<li><strong>{{ .title }}:</strong> {{ range .options }}<a href="{{ .link }}">{{ .link_type }}</a>{{ end }}</li>
+{{- end -}}
+</ul>
+{{- end -}}
+</div>

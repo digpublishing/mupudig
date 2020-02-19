@@ -76,3 +76,31 @@
   font-size: .75em;
   padding: .5rem;
 }
+
+/* Style g-project-block shortcode */
+.project-block {
+  border-top: 1px solid #333;
+  margin-bottom: 2rem;
+  padding-top: .75rem;
+  text-align: center;
+}
+.project-block p.project-info,
+.project-block ul {
+  border-bottom: 1px solid #333;
+  padding: 0 1rem .75rem;
+}
+.project-block ul {
+  margin-left: 0;
+  padding: 0;
+}
+.project-block ul li::before {
+  content: "" !important;
+}
+.project-block ul a {
+  margin: 0 .75rem;
+}
+
+/* Style g-other-speakers shortcode */
+.content ul.other-speakers {
+  margin-left: .5rem;
+}
