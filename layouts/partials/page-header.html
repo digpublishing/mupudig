@@ -12,7 +12,7 @@
     </h1>
     {{/* Contributors, if any */}}
     {{ partial "page-contributor.html" . }}  
-    {{ with .Params.reading_line }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.reading_line }}<p>{{ markdownify . }}</p>{{ end }}
   </div>
 </section>
 
