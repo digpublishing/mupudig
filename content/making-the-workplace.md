@@ -1,10 +1,12 @@
 ---
 weight: 820
 title: "Making the Workplace We Want"
+reading_line: Sharing practical approaches for grassroots culture change at work
 event: MCN
 date: 2016-11-04
 location: New Orleans
 label: Workshop
+image: 1thing.jpg
 other_speakers:
   - Annelisa Stephan, Manager for Digital Engagement, J. Paul Getty Trust
 ---

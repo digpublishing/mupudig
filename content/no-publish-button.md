@@ -1,10 +1,12 @@
 ---
 weight: 840
 title: "There is No ‘Publish’ Button"
+reading_line: Successful digital projects require new approaches to content, new tools and skills, and new ways of thinking
 event: NMPS
 date: 2016-05-13
 location: Chicago
 label: Panel
+image: publish-button.jpg
 other_speakers:
   - Joseph Mohan, Associate Director of Production, The Art Institute of Chicago
   - Kris Thayer, Senior Designer, Minneapolis Institute of Art 
@@ -18,3 +20,6 @@ links:
     link: /downloads/no-publish-button.pdf
 ---
 
+{{< g-project-block >}}
+
+{{< g-other-speakers >}}

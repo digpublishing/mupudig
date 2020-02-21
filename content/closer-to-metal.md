@@ -1,10 +1,12 @@
 ---
 weight: 850
 title: "Closer to Metal"
+reading_line: The shifting fundamentals of publishing
 event: ebookcraft
 date: 2016-03-31
 location: Toronto
 label: Talk
+image: metal.jpg
 links:
 - title: Slides
   options:
@@ -15,6 +17,8 @@ links:
   - link_type: YouTube
     link: https://youtu.be/soW6sd5pBt4
 ---
+
+{{< g-project-block >}}
 
 - Read and write HTML
 - Manipulate CSS

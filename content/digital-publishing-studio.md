@@ -5,6 +5,7 @@ event: MCN
 date: 2014-06-13
 location: Minneapolis
 label: Workshop 
+image: studio.jpg
 links:
 - title: Digital Publishing 101 (chart) 
   options:
@@ -17,6 +18,8 @@ links:
   - link_type: GitHub
     link: https://github.com/thegetty/mcn2015-pubstudio
 ---
+
+{{< g-project-block >}}
 
 ## Workshop Description
 

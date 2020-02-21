@@ -1,6 +1,7 @@
 ---
 weight: 815
 title: "Bringing Books Online"
+reading_line: A history of book digitization and e-publishing initiatives in academia and museums, some thoughts on post-publication evaluation, and a look at current efforts
 event: Museums and the Web
 date: 2017-04-20
 location: Cleveland
@@ -14,7 +15,9 @@ links:
     link: https://mw17.mwconf.org/paper/the-next-generation-of-online-publishing-building-on-what-weve-learned-together/
 ---
 
-I was to label:a talk at MW entitled, “The Next Generation of Online Publishing: Building on What We’ve Learned Together”, but a bout of pneumonia kept me from it. The associated paper I wrote for it, however, remains.
+{{< g-project-block >}}
+
+I was to give a talk at MW entitled, “The Next Generation of Online Publishing: Building on What We’ve Learned Together”, but pneumonia kept me from it. The associated paper I wrote for it, however, remains.
 
 ## Abstract
 
