@@ -1,5 +1,13 @@
 <div class="project-block">
+{{ if .Page.Params.multi }}
+  <div class="project-info">
+  {{ range sort .Page.Params.multi "date" "desc" }}
+    <p>{{- with .date }}<span class="date">{{ dateFormat "January 2, 2006" . }}</span> | {{ end }}{{- with .event }}<span class="event">{{ . }}</span> | {{ end }}{{- with .location }}<span class="location">{{ . }}</span>{{ end }}</p>
+  {{ end }}
+  </div>
+{{ else if .Page.Params.date }}
 <p class="project-info">{{- with .Page.Params.date }}<span class="date">{{ dateFormat "January 2, 2006" . }}</span> | {{ end }}{{- with .Page.Params.event }}<span class="event">{{ . }}</span> | {{ end }}{{- with .Page.Params.location }}<span class="location">{{ . }}</span>{{ end }}</p>
+{{ end }}
 {{- with .Page.Params.links -}}
 <ul class="project-links">
 {{- range . -}}
