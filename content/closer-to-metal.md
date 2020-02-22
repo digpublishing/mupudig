@@ -8,21 +8,29 @@ location: Toronto
 label: Talk
 image: metal.jpg
 links:
-- title: Slides
-  options:
-  - link_type: PDF
-    link: /downloads/closer-to-metal.pdf
-- title: Video
-  options:
-  - link_type: YouTube
-    link: https://youtu.be/soW6sd5pBt4
+  - title: Slides
+    options:
+      - link_type: PPTX
+        link: /downloads/closer-to-metal.pptx
+      - link_type: PDF
+        link: /downloads/closer-to-metal.pdf
+  - title: Video
+    options:
+      - link_type: YouTube
+        link: https://youtu.be/soW6sd5pBt4
 ---
 
 {{< g-project-block >}}
 
-- Read and write HTML
-- Manipulate CSS
-- Recognize and wonder at JavaScript
+The title for this talk came from our talented developer in Getty Publications, Eric Gardner. It refers to doing code work closer to the heart of computer language, with less layers of abstraction. For me, it also resonates with my early career working in letterpress and lithography print shops where the tools that created books were literally metal. There’s something to that connection I think.
+
+In the talk itself, I posited that in order to better do our jobs as digital publishers and to move the field forward, we should all work toward being able to better act, write, and think like coders: share everything, operate in plain text or see the abstraction, look for patterns and variables, understand text strings versus data.
+
+{{< youtube soW6sd5pBt4 >}}
+
+As a bonus to speaking at ebookcraft, [Iris Amelia](https://twitter.com/epubpupil) made this great illustration of my talk:
+
+![Portrait of Greg and his talk](/img/gealbers--by-irisamelia.jpg)
 
 ## Talk Description
 
