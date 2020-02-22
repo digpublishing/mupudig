@@ -171,9 +171,21 @@
       {{- end -}}
       <div class="card-content">
         {{- with .Page.Params.label }}<p class="label">{{ upper . }}</p>{{ end }}
-        {{ if .Page.Params.multi }}
-          <p class="date">{{ range first 1 .Page.Params.multi }}{{ dateFormat "January 2, 2006" .date }}{{ end }}–{{ range last 1 .Page.Params.multi }}{{ dateFormat "January 2, 2006" .date }}{{ end }}</p>
-        {{ else if .Page.Params.date }}  
+        {{- if .Page.Params.multi -}}
+          {{- range first 1 .Page.Params.multi -}}
+            {{- $.Page.Scratch.Add "yearOne" (dateFormat "2006" .date) }}
+          {{- end -}}
+          {{- range last 1 .Page.Params.multi -}}
+            {{- $.Page.Scratch.Add "yearTwo" (dateFormat "2006" .date) -}}
+          {{- end -}}
+          {{- if eq (len .Page.Params.multi) 1 }}
+            <p class="date">{{ range first 1 .Page.Params.multi }}{{ dateFormat "January 2, 2006" .date }}{{ end }}</p>
+          {{- else if eq (len .Page.Params.multi) 2 }}          
+            <p class="date">{{ range first 1 .Page.Params.multi }}{{ if eq ($.Page.Scratch.Get "yearOne") ($.Page.Scratch.Get "yearTwo") }}{{ dateFormat "January 2" .date }}{{ else }}{{ dateFormat "January 2, 2006" .date }}{{ end }}{{ end }} and {{ range last 1 .Page.Params.multi }}{{ dateFormat "January 2, 2006" .date }}{{ end }}</p>
+          {{- else }}
+            <p class="date">{{ range first 1 .Page.Params.multi }}{{ if eq ($.Page.Scratch.Get "yearOne") ($.Page.Scratch.Get "yearTwo") }}{{ dateFormat "January 2" .date }}{{ else }}{{ dateFormat "January 2, 2006" .date }}{{ end }}{{ end }} through {{ range last 1 .Page.Params.multi }}{{ dateFormat "January 2, 2006" .date }}{{ end }}</p>
+          {{- end }}
+        {{- else if .Page.Params.date }}  
           <p class="date">{{ dateFormat "January 2, 2006" .Page.Params.date }}</p>
         {{ end }}
         <div class="title">
