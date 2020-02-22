@@ -9,7 +9,7 @@ multi:
   - event: MCN
     date: 2011-11-01
     location: Atlanta
-label: Workshop
+label: Workshops
 links:
   - title: MCN Agenda
     options:
@@ -29,7 +29,7 @@ links:
 
 {{< g-project-block >}}
 
-An ambitious agenda (paired down the second time I attempted it) but a fun, and I think worthy project.
+I thought if museums weren’t producing ebooks, perhaps I could teach them to do so and they would. So in half-day workshops at Museums and the Web and MCN, I packed in an ambitious agenda (paired down the second time I attempted it) and attempted to teach participants how to create an EPUB from start to finish. The results were never flawless, but it was a fun, and I think worthy project.
 
 ## Workshop Description
 

@@ -27,6 +27,8 @@ Books in Browsers, the scrappy sibling to O’Reilly Media’s highly influentia
 
 For this talk, for better or worse, I pulled out the inner drama kid in me and this functioned more as a performance than a talk. An alternate title might have been, *The Romance of the QR Code*. The full text is below, or you can download it as an EPUB above.
 
+{{< youtube qrMMhjZWf-I >}}
+
 ## Complete Text
 
 We are here talking about beautiful books, and is there anything more beautiful than an art book? Gorgeous imagery, lavishly printed on the finest papers; expertly designed pages, bound in cloth and stamped in gold; book displays of impeccable taste, in the finest stores in the world. Books so beautiful we artfully arrange them in our homes for all to see and admire.  

@@ -1,11 +1,30 @@
 ---
-weight: 950
+weight: 940
 title: "What E-books Can Do for Photobooks"
-event: SPE
-date: 2012-03-24
-location: San Francisco
-label: Talk
+reading_line: With the recent explosion of print photobooks being produced and collected, can e-books offer an additional path?
+multi:
+  - event: Society for Photographic Education
+    date: 2012-03-24
+    location: San Francisco
+  - event: INFOCUS, Phoenix Art Museum
+    date: 2012-08-15
+    location: Phoenix
+label: Talks
+image: photobooks.jpg
+links:
+  - title: Full Presentation
+    options:
+      - link_type: EPUB
+        link: /downloads/ebooks-for-photobooks.epub
 ---
+
+{{< g-project-block >}}
+
+As written in the presentation, the basic hypothesis of these talks is:
+
+Photobooks + EPUB = ♥
+
+And as with other talks I did around this time, I created the [presentation as an EPUB](/downloads/ebooks-for-photobooks.epub) rather than PowerPoint slides, and presented it directly from an iPad.
 
 ## Talk Description
 
