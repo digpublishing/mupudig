@@ -45,6 +45,12 @@
 }
 
 /* Style headings and page headers */
+.quire-page__header .hero-body .label {
+  background-color: inherit;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+}
 .quire-page h1.quire-page__header__title {
   font-weight: 400;
   font-size: 2.75em;
@@ -184,4 +190,74 @@
 }
 #cv .quire-page__content .container .content ul li::before {
   content: none;
+}
+
+/* Style navbar to match site and override navbar.html partial */
+.quire-navbar {
+  border-bottom: 1px solid #777;
+}
+.quire-navbar * {
+  color: #000;
+}
+.quire-navbar a {
+  background-color: inherit;
+  color: #000 !important;
+}
+.quire-navbar-controls__right a {
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+}
+.quire-navbar .quire-navbar-controls__right svg {
+  height: calc(3rem * .75);
+  width: calc(3rem * .75);
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  margin-top: .75rem;
+}
+.quire-navbar-page-controls__item {
+  font-weight: 400;
+}
+.quire-navbar-controls__left a:hover, 
+.quire-navbar-controls__left button:hover, 
+.quire-navbar-controls__left .button:hover, 
+.quire-navbar-controls__right a:hover, 
+.quire-navbar-controls__right button:hover, 
+.quire-navbar-controls__right .button:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item a:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item button:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item .button:hover {
+  color: #666 !important;
+  background-color: inherit !important;
+}
+.quire-navbar-controls__left button {
+  cursor: pointer;
+}
+.quire-navbar-controls__left button:hover svg,
+.quire-navbar-controls__right a:hover svg {
+  fill: #999;
+}
+.quire-search__close-button:hover {
+  background-color: inherit;
+}
+.quire-search__close-button:hover svg {
+  fill: #999;
+}
+@media screen and (max-width: 700px) {
+  .next-prev-text {
+    display: none;
+  }
+}
+
+/* Hide footer buttons and add some white space to compensate */
+.quire-contents-buttons {
+  display: none;
+}
+#content {
+  margin-bottom: 140px;
+}
+
+/* Make search input font match rest of site */
+.quire-search__inner .input {
+  font-family: "Victor Mono", monospace;
 }

@@ -3,6 +3,7 @@ title: Greg Albers
 weight: 1200
 toc: false
 cv: false
+type: info
 ---
 
 [*Download PDF*](/downloads/geealbers_cv.pdf)
