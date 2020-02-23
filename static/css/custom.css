@@ -69,11 +69,11 @@
   margin-top: 1.25rem !important;
 }
 .quire-page__header {
-  color: #000000; 
+  color: #000; 
 }
 .quire-page__header a {
-  color: #000000; 
-  border-bottom: 1px dotted #000000;
+  color: #000; 
+  border-bottom: 1px dotted #000;
 }
 .quire-page__header a:hover {
   color: #777 !important;
@@ -96,14 +96,14 @@
 
 /* Style g-project-block shortcode */
 .project-block {
-  border-top: 1px solid #333;
+  border-top: 1px solid #777;
   margin-bottom: 2rem;
   padding-top: .75rem;
   text-align: center;
 }
 .project-block .project-info,
 .project-block ul {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #777;
   padding: 0 1rem .75rem;
 }
 .project-block ul {
@@ -161,7 +161,7 @@
     padding-right: 0;
   }
   .quire-contents-list.grid ul li .card {
-    border-top: 1px solid #000;
+    border-top: 1px solid #777;
     min-height: inherit;
   }
   .quire-page__header .hero-body {
