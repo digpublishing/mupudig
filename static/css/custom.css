@@ -107,3 +107,67 @@
 .project-block ul a {
   margin: 0 .75rem;
 }
+
+/* Chamnge card image hover effect from box shadow to fade */
+.quire-contents-list .menu-list a:hover figure.image,
+.quire-contents-list.grid ul li .card .card-image .image:hover {
+  box-shadow: none;
+  opacity: .7;
+}
+.quire-contents-list.grid ul li .card.image .card-image + .card-content {
+  padding-top: 1em;
+}
+
+/* Fix side margins and padding on contents grid */
+.container {
+  width: auto;
+}
+.quire-contents .quire-page__content .container.is-fullhd {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.quire-contents-list.grid ul li .card {
+  margin: 0 1.25em;
+  padding-bottom: 4em;
+  min-height: inherit;
+}
+.quire-contents-list.grid ul li .card-content,
+.quire-contents-list.grid ul li .card .card-image,
+.quire-contents-list.grid ul li .card.image .card-content {
+  padding: 0;
+}
+@media screen and (max-width: 700px) {
+  .quire-contents .quire-page__content .container.is-fullhd {
+    padding-left: 2.25em;
+    padding-right: 2.25em;
+  }
+  .quire-contents-list.grid ul li .card {
+    margin: 1em 0;
+    padding-bottom: 1em;
+  }
+  .quire-contents-list.grid ul li .card-content,
+  .quire-contents-list.grid ul li .card .card-image, 
+  .quire-contents-list.grid ul li .card.image .card-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .quire-contents-list.grid ul li .card {
+    border-top: 1px solid #000;
+    min-height: inherit;
+  }
+  .quire-page__header .hero-body {
+    padding-left: 
+  }
+}
+
+/* Fix side side padding on page header */
+.quire-page__header .hero-body {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+@media screen and (max-width: 500px) {
+  .quire-page__header .hero-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
