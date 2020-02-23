@@ -1,13 +1,15 @@
 ---
 weight: 960
-title: "E-Books for Museums: How to Make Them, and Why You Should"
+title: "E-books for Museums: How to Make Them, and Why You Should"
 reading_line: Creating an EPUB e-book, from start to finish, as best as we can
 multi:
   - event: Museums and the Web
     date: 2011-04-06
+    label: Workshop
     location: Philadelphia
   - event: MCN
     date: 2011-11-01
+    label: Workshop
     location: Atlanta
 label: Workshops
 links:

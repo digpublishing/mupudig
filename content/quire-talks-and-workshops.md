@@ -4,18 +4,23 @@ title: "Quire Talks & Workshops"
 reading_line: Training sessions for Getty’s multiformat publishing software
 multi:
   - date: 2017-11-07
+    label: Workshop
     event: MCN
     location: Pittsburgh
   - date: 2018-04-18
-    event: MW
+    label: Workshop
+    event: Museums and the Web
     location: Vancouver
   - date: 2018-05-03
-    event: NPMS
+    label: Demo
+    event: NMPS
     location: San Francisco
   - date: 2018-05-21
+    label: Talk
     event: Library Publishing Forum
     location: Minneapolis
   - date: 2018-06-01
+    label: Talk
     event: Association of University Presses
     location: San Francisco
 label: Talks & Workshops

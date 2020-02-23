@@ -3,6 +3,7 @@ weight: 810
 title: "Online Publishing: What We’ve Learned and Where We’re Going"
 reading_line: +75 resource links at the end of the deck!
 date: 2017-05-09
+event: AAM
 location: St. Louis
 label: Talk
 links:

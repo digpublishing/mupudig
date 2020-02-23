@@ -2,7 +2,7 @@
 weight: 1000
 title: "The Future of Publishing"
 reading_line: Empowering people to work collaboratively on projects they love ... and e-books 🦄
-event: Flair Symposium, Harry Ransom Center
+event: Flair Symposium
 date: 2010-10-02
 location: Austin
 label: Talk
@@ -29,7 +29,7 @@ links:
 
 {{< g-project-block >}}
 
-Part of the 2010 Flair Symposium (“Shaping the History of Photography”) and a panel on Photographic Publishing, this was my very first talk. [Mary Virginia Swanson](https://mvswanson.com/) invited me to participate and for that I’ll always be grateful to her as it was not only a lovely event, but also opened my eyes to the idea that this was the kind of thing I could do.
+Part of the 2010 Flair Symposium held at the Harry Ransom Center, this was my very first talk. [Mary Virginia Swanson](https://mvswanson.com/) invited me to participate and for that I’ll always be grateful to her as it was not only a lovely event, but also opened my eyes to the idea that this was the kind of thing I could do. The theme of the symposium that year was “Shaping the History of Photography” and the panel I was on was focused on Photographic Publishing.
 
 My first foray into public speaking suffered some from my misguided desire in the slides and script to come off as more clever than necessary, and were video available, you would have seen me shaking like a leaf as I doggedly and not always successfully worked through script. Still, it’s not half bad.
 

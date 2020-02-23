@@ -5,9 +5,11 @@ reading_line: With the recent explosion of print photobooks being produced and c
 multi:
   - event: Society for Photographic Education
     date: 2012-03-24
+    label: Talk
     location: San Francisco
   - event: INFOCUS, Phoenix Art Museum
     date: 2012-08-15
+    label: Talk
     location: Phoenix
 label: Talks
 image: photobooks.jpg
