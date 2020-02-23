@@ -171,3 +171,14 @@
     padding-right: 1.25rem;
   }
 }
+
+/* Adjust list styling for CV page to remove bullets and margins */
+#cv .quire-page__content .container .content ul {
+  margin-left: 0;
+}
+#cv .quire-page__content .container .content ul li {
+  margin-left: 0;
+}
+#cv .quire-page__content .container .content ul li::before {
+  content: none;
+}
