@@ -6,7 +6,7 @@ cv: false
 type: info
 ---
 
-[*Download PDF*](/downloads/geealbers_cv.pdf)
+<!-- [*Download PDF*](/downloads/geealbers_cv.pdf) -->
 
 3445 Military Ave, Los Angeles, California 90034<br />
 520) 331-2780 | geealbers@gmail.com<br />

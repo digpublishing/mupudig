@@ -28,7 +28,7 @@ links:
       - link_type: Google Drive
         link: https://docs.google.com/document/d/13O_B-bENMReSVk8AdtQ6DOeZmLSmeoEHAWVZipP40D8/edit?usp=sharing
       - link_type: ZIP
-        link: /downloads/musetech-ideal-syllabus--results.pdf
+        link: /downloads/musetech-ideal-syllabus--results.zip
 ---
 
 {{< g-project-block >}}

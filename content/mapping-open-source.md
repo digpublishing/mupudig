@@ -33,6 +33,8 @@ Sparked by a [brief Twitter conversation](https://twitter.com/danamuses/status/9
 
 This project was presented in the talk “‘We’re Open Sourcing It’: Mapping the Creation and Reuse of Open Source Code within the Museum Sector”, at MCN 2018 in Denver, and [updated the following year](/making-more-of-open-source/).
 
+{{< youtube 6h4GU3rLAx0 >}}
+
 ## Original Talk & Project Description
 
 In the past several years, we have seen the rise of open access content in the sector, as museums are increasingly publishing text and sharing images for public use under permissive, open licenses. The creation and reuse of open source code is following a similar trajectory with the rise of the sharing economy and of sites like GitHub which have mainstreamed the sharing of code. A list of museums and open source projects on GitHub included just a dozen institutions in 2015, whereas today, an updated version of the same list identifies nearly seventy. Indeed, declarations of the value of creating and sharing open source software for and with one another have become a sort of mantra in the field. But is this actually happening? Are museums re-using one another’s code? What are the pitfalls and opportunities this presents? What does it mean for museums to be a software publishers?
