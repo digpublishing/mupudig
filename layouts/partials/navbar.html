@@ -1,0 +1,124 @@
+{{/*
+  
+  This override file removes the menu and adds a link to an About page instead, 
+  and uses text in place of icons in the center section
+  
+*/}}
+
+{{- if isset $.Site.Params "imagedir" }}
+{{ $.Scratch.Set "imageDir" $.Site.Params.imageDir }}
+{{ else }}
+{{ $.Scratch.Set "imageDir" "" }}
+{{ end -}}
+{{- $imgDir := $.Scratch.Get "imageDir" -}}
+
+<div class="quire-navbar">
+
+  <a href="#main" class="quire-navbar-skip-link" tabindex="1">
+    Skip to Main Content
+  </a>
+
+  <nav class="quire-navbar-controls">
+    <div class="quire-navbar-controls__left">
+      <button class="quire-navbar-button search-button"
+              aria-controls="quire-search"
+              onclick="toggleSearch()">
+        <svg class="remove-from-epub">
+          <switch>
+            <use xlink:href="#search-icon"></use>
+            <foreignObject width="32" height="32">
+                <img src="{{ $imgDir | relURL }}/icons/search.png" alt="Search" />
+            </foreignObject>
+          </switch>
+        </svg>
+        <span class="visually-hidden">Search</span>
+      </button>
+    </div>
+
+    <div class="quire-navbar-controls__center">
+      <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
+
+      {{- $pages := .Site.Pages -}}
+      {{- $pages := where $pages "Params.online" "!=" "false" }}
+      {{- $pages := where $pages ".Type" "!=" "data" -}}
+      
+      {{- range $index, $element := $pages -}}
+        {{- if eq $index  0 -}}
+          {{- $.Scratch.Set "homepage" .File.UniqueID -}}
+          {{- $.Scratch.Set "homepage-link" .Permalink -}}
+        {{- end -}}
+        {{- if eq $index  1 -}}
+          {{- $.Scratch.Set "secondpage-link" .Permalink -}}
+        {{- end -}}        
+      {{- end -}}
+
+      {{- if eq .File.UniqueID ($.Scratch.Get "homepage") -}}
+
+        <li class="quire-navbar-page-controls__item quire-home-page">
+          hello!
+        </li>
+        
+      {{- else if eq .Page.Params.type "info" -}}
+
+        <li class="quire-navbar-page-controls__item quire-home-page">
+          <a href='{{ $.Scratch.Get "homepage-link" | relURL }}' rel='home'>
+              home
+          </a>
+        </li>
+
+      {{- else -}}
+        
+        {{- $previousPages := where $pages "Weight" "lt" .Weight -}}
+        {{- $previousPages := where $previousPages "Page.Params.type" "ne" "info" -}}
+        {{- $previousPages := where $previousPages "Page.Params.slug" "ne" "." -}}
+        {{- if gt (len $previousPages) 0 -}}
+        {{- range last 1 $previousPages -}}
+          <li class="quire-navbar-page-controls__item quire-previous-page">
+            <a href='{{ .Permalink | relURL }}' rel="previous">      
+              < <span class="next-prev-text">{{ .File.BaseFileName }}</span>
+            </a>
+          </li>
+        {{- end -}}
+        {{- end -}}
+
+        <li class="quire-navbar-page-controls__item quire-home-page">
+          <a href='{{ $.Scratch.Get "homepage-link" | relURL }}' rel='home'>
+              home
+          </a>
+        </li>
+
+        {{- $nextPages := where $pages "Weight" "gt" .Weight -}}
+        {{- $nextPages := where $nextPages "Page.Params.type" "ne" "info" -}}
+        {{- $nextPages := where $nextPages "Page.Params.slug" "ne" "." -}}
+        {{- if gt (len $nextPages) 0 -}}
+        {{- range first 1 $nextPages -}}
+        <li class="quire-navbar-page-controls__item quire-next-page">
+          <a href='{{ .Permalink | relURL }}' rel='next'>            
+            <span class="next-prev-text">{{ .File.BaseFileName }}</span> >
+          </a>
+        </li>
+        {{- end -}}
+        {{- end -}}
+
+      {{- end -}}
+
+      </ul>
+    </div>
+    
+    <div class="quire-navbar-controls__right">
+      <a href='/about/' rel='about'>
+        <svg class="remove-from-epub">
+          <switch>
+            <use xlink:href="#help-icon"></use>
+            <foreignObject width="32" height="32">
+                <img src="{{ $imgDir | relURL }}/icons/help.png" alt="Table of Contents" />
+            </foreignObject>
+          </switch>
+        </svg>
+        <span class="visually-hidden">About</span>
+      </a>
+    </div>
+
+  </nav>
+
+</div>

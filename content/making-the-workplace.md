@@ -1,12 +1,39 @@
 ---
+weight: 820
 title: "Making the Workplace We Want"
+reading_line: Sharing practical approaches for grassroots culture change at work
 event: MCN
 date: 2016-11-04
 location: New Orleans
-type: workshop
+label: Workshop
+image: 1thing.jpg
+image_caption: "Everything you need: a simple worksheet, Sharpies, and candy."
 other_speakers:
   - Annelisa Stephan, Manager for Digital Engagement, J. Paul Getty Trust
+links:
+  - title: Full Write-up
+    options:
+      - link_type: Blog
+        link: http://blogs.getty.edu/iris/1thing/
+  - title: 1Thing Worksheet
+    options:
+      - link_type: PDF
+        link: /downloads/1thing.pdf
+  - title: Intro Slides
+    options: 
+      - link_type: Google Slides
+        link: https://docs.google.com/presentation/d/1mXXs4uasjcanqav4Jd8gURluu53aiS6oPo9Ty8igDho/edit?usp=sharing
+      - link_type: PDF
+        link: /downloads/1thing--slides.pdf
 ---
+
+{{< g-project-block >}}
+
+My co-conspirator on this, Annelisa Stephan, and I have put together a number of grassroots semi-rogue projects at the Getty over the years. In this session we wanted to pass on some of what we learned, and also codify some tools and approaches to take forward. Particularly with the very simple [1Thing worksheet](/downloads/1thing.pdf).
+
+In the session, we gave a brief overview of our work and our aims, and then broke attendees into small groups to brainstorm and discuss their own goals and ideas.
+
+{{< slides "https://docs.google.com/presentation/d/e/2PACX-1vRWj1Ukt_PmV298XF87nymdfCnAEhZTl26xU6IwdbIdlnYjETg7vSK6tIBDXdSPlKyj5Lc7h7KfIHPM/embed?start=false&loop=false&delayms=3000" >}}
 
 ## Session Description
 
@@ -21,3 +48,5 @@ We’ll generate ideas for concrete actions we can take right now around the con
 We’ll focus on fostering equitable work cultures that provide alternatives to the dominator paradigm. The presenters will also share their own successes and failures in their quest for culture change, with a focus on trust, open communication, digital literacy, and the occasional happy hour.
 
 Come ready to share your own strategies, aspirations, and gripes, and leave with actionable ideas for making your own museum more collaborative, dynamic, and just plain personal—including a commitment to go back and do one thing in the following weeks to make your workplace what you need it to be.
+
+{{< g-other-speakers >}}

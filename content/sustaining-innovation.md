@@ -1,15 +1,33 @@
 ---
-title: "Sustaining Innovation: Tips & Techniques to Keep Momentum in your Organization"
+weight: 825
+title: "Sustaining Innovation: Tips & Techniques to Keep Momentum in Your Organization"
 event: MCN
 date: 2016-11-03
 location: New Orleans
-type: panel
+label: Panel
 other_speakers:
   - Emily Lytle-Painter, Content and Experience Strategist, Independent
   - Douglas Hegley, Director of Media & Technology, Minneapolis Institute of Art
   - Jeffrey Inscho, Master of Disaster, Innovation Studio at Carnegie Museums of Pittsburgh
   - Annelisa Stephan, Manager for Digital Engagement, J. Paul Getty Trust
 ---
+
+{{< g-project-block >}}
+
+This session was run under [Chatham House Rules](https://en.wikipedia.org/wiki/Chatham_House_Rule), and after brief introductions from the session leaders, we broke up attendees into small groups and facilitated their conversations around these three questions:
+
+**Question 1: Looking Up**<br />
+How can we successfully implement new ideas in spite of reticent leadership?
+
+**Question 2: Looking Across**<br />
+How can we best support our colleagues/staff to continue being innovative?
+
+**Question 3: Looking In**<br />
+What tools for professional self-care do you use to keep yourself strong, motivated and moving forward?
+
+And some nice sketchnotes on the session from [Jason Alderman](https://twitter.com/justsomeguy):
+
+![Visual notes on the session](/img/sustaining-innocation--sketchnotes--by-jasonalderman.jpg)
 
 ## Session Description
 
@@ -20,3 +38,5 @@ At MCN2015 in Minneapolis, the Director of the Minneapolis Institute of Art Kayw
 - You’re an effective rebel who’s ready to share how you keep going when the going gets tough Let’s work on this together. 
 
 MCN provides us with a powerful network of peers who sincerely support each other, this session will prove it! 
+
+{{< g-other-speakers >}}

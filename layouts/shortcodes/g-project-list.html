@@ -1,0 +1,14 @@
+<ul>
+  {{ range .Site.Pages }}
+    {{ if ne .Page.Params.cv false }}
+    <li><a href="{{ .Permalink }}">{{ with .Title }}{{ . }}{{ end }}</a><br />
+      {{- if .Page.Params.multi -}}
+        {{- range .Page.Params.multi -}}
+          {{- with .date }}{{ dateFormat "January 2006" . }}{{ end }} — {{ with .label }}{{ . }}{{ end }}{{ with .event }}, {{ . }}{{ end }}<br />
+        {{ end -}}
+      {{- else if .Page.Params.date -}}
+        {{- dateFormat "January 2006" .Page.Params.date }} — {{ with .Page.Params.label }}{{ . }}{{ end }}{{ with .Page.Params.event }}, {{ . }}{{ end -}}
+      {{- end -}}</li>
+    {{ end }}
+  {{ end }}
+</ul>

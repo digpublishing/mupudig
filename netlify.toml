@@ -1,0 +1,36 @@
+# netlify.toml
+# The prefix is the path to your package.json file in your theme
+# Change the path of your theme if it is not themes/quire-starter-theme.
+
+# This section is the production configuration and is all you need to deploy
+[build]
+publish = "site"
+command = "npm --prefix themes/quire-starter-theme run build"
+
+[context.production.environment]
+HUGO_VERSION = "0.55.4"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+# These next configurations are optional
+
+# This section is the pull request configuration
+[context.deploy-preview]
+command = "npm --prefix themes/quire-starter-theme run build"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.55.4"
+
+# This section is the branch configuration
+[context.branch-deploy]
+command = "npm --prefix themes/quire-starter-theme run build"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.55.4"
+
+# This section is the branch configuration but targets a specific branch and also runs a different command
+[context.stage]
+command = "npm --prefix themes/quire-starter-theme run build"
+
+[context.stage.environment]
+HUGO_VERSION = "0.55.5"

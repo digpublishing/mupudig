@@ -1,19 +1,23 @@
 ---
+weight: 870
 title: "Digital Publishing Studio"
+reading_line: Collaboratively writing and publishing a digital book, start to finish, in four days — or at least trying to
 event: MCN
-date: 2014-06-13
+date: 2015-11-04
 location: Minneapolis
-type: workshop 
+label: Workshop 
+image: studio.jpg
+image_caption: Warming up for the studio with Led Zeppelin’s *Four Sticks*.
 links:
-- title: Digital Publishing 101 (chart) 
-  - link_type: Google Sheets
-    link: https://docs.google.com/spreadsheets/d/1xzZnT6TDPw-7nnrffDeNhdJ0w3wQdUweBHGfzQMEpCk/edit#gid=2085398171
-  - link_type: PDF
-    link: /downloads/digital-publishing-101--chart.pdf
-- title: Resources
+- title: Workshop Resources
+  options:
   - link_type: GitHub
     link: https://github.com/thegetty/mcn2015-pubstudio
 ---
+
+{{< g-project-block >}}
+
+In 2011, I ran a couple workshops focused on [creating EPUBs from start to finish](/ebooks-for-museums/), this 2014 update sought to do much the same, but by using a [static site generator](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) to produce a web publication. As you can see in the description below, the approach also focused much more on the publishing process than it did the technology being used. Not totally surprisingly, this workshop ended much the way those older ones did: we had some fun and learned some things, but didn’t finish our very optimistic agenda.
 
 ## Workshop Description
 

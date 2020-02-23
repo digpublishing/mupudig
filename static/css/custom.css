@@ -1,0 +1,264 @@
+/* Style labels and dates that were added to contents page grid */
+.quire-contents-list.grid .title {
+  margin-bottom: 0;
+}
+.card-content .label,
+.card-content .date,
+.card-content .reading-line {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.card-content .label {
+  font-size: .875rem;
+  letter-spacing: .5px;
+}
+.card-content .date {
+  font-style: italic;
+  margin-bottom: .5rem;
+}
+.quire-contents-list.grid ul li .card-content p.label,
+.quire-contents-list.grid ul li .card-content p.date {
+  padding-top: 0;
+}
+
+/* Hide default arrow graphics on contents page */
+.quire-contents-list .menu-list a .arrow {
+  display: none;
+}
+
+/* Reduce default size of content grid headings */
+.quire-contents-list.grid ul li .card.no-image .card-content {
+  font-size: 2em;
+  font-weight: 400;
+}
+.quire-contents-list.grid .title {
+  font-size: 2rem;
+  line-height: 1.125;
+  font-weight: 400;
+}
+
+/* Make card text color black instead of dark gray */
+.card,
+.label {
+  color: #333;
+}
+
+/* Style headings and page headers */
+.quire-page__header .hero-body .label {
+  background-color: inherit;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.quire-page h1.quire-page__header__title {
+  font-weight: 400;
+  font-size: 2.75em;
+}
+.quire-page--cover h1.quire-page__header__title {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.quire-page__header {
+  font-family: 'Victor Mono', monospace;
+}
+.quire-page h2 {
+  font-size: 1.5rem;
+  margin-top: 1.25rem !important;
+}
+.quire-page__header {
+  color: #000; 
+}
+.quire-page__header a {
+  color: #000; 
+  border-bottom: 1px dotted #000;
+}
+.quire-page__header a:hover {
+  color: #777 !important;
+  border-bottom: 1px solid #777 !important;
+}
+.quire-page__header.hero__image-caption {
+  font-size: .75em;
+  padding: 0 .5rem;
+  display: block;
+  text-align: left;
+  user-select: text;
+}
+
+/* Style blockquotes to be a bit more graphic */
+.quire-page__content .container .content blockquote {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: .75em 0 .75em 1.5em;
+}
+
+/* Style g-project-block shortcode */
+.project-block {
+  border-top: 1px solid #777;
+  margin-bottom: 2rem;
+  padding-top: .75rem;
+  text-align: center;
+}
+.project-block .project-info,
+.project-block ul {
+  border-bottom: 1px solid #777;
+  padding: 0 1rem .75rem;
+}
+.project-block ul {
+  margin-left: 0;
+  padding: 0;
+}
+.project-block ul li::before {
+  content: "" !important;
+}
+.project-block ul a {
+  margin: 0 .75rem;
+}
+
+/* Chamnge card image hover effect from box shadow to fade */
+.quire-contents-list .menu-list a:hover figure.image,
+.quire-contents-list.grid ul li .card .card-image .image:hover {
+  box-shadow: none;
+  opacity: .7;
+}
+.quire-contents-list.grid ul li .card.image .card-image + .card-content {
+  padding-top: 1em;
+}
+
+/* Fix side margins and padding on contents grid */
+.container {
+  width: auto;
+}
+.quire-contents .quire-page__content .container.is-fullhd {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.quire-contents-list.grid ul li .card {
+  margin: 0 1.25em;
+  padding-bottom: 4em;
+  min-height: inherit;
+}
+.quire-contents-list.grid ul li .card-content,
+.quire-contents-list.grid ul li .card .card-image,
+.quire-contents-list.grid ul li .card.image .card-content {
+  padding: 0;
+}
+@media screen and (max-width: 700px) {
+  .quire-contents .quire-page__content .container.is-fullhd {
+    padding-left: 2.25em;
+    padding-right: 2.25em;
+  }
+  .quire-contents-list.grid ul li .card {
+    margin: 1em 0;
+    padding-bottom: 1em;
+  }
+  .quire-contents-list.grid ul li .card-content,
+  .quire-contents-list.grid ul li .card .card-image, 
+  .quire-contents-list.grid ul li .card.image .card-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .quire-contents-list.grid ul li .card {
+    border-top: 1px solid #777;
+    min-height: inherit;
+  }
+  .quire-page__header .hero-body {
+    padding-left: 
+  }
+}
+
+/* Fix side side padding on page header */
+.quire-page__header .hero-body {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+@media screen and (max-width: 500px) {
+  .quire-page__header .hero-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+/* Adjust list styling for CV page to remove bullets and margins */
+#cv .quire-page__content .container .content ul {
+  margin-left: 0;
+}
+#cv .quire-page__content .container .content ul li {
+  margin-left: 0;
+}
+#cv .quire-page__content .container .content ul li::before {
+  content: none;
+}
+
+/* Style navbar to match site and override navbar.html partial */
+.quire-navbar {
+  border-bottom: 1px solid #777;
+}
+.quire-navbar * {
+  color: #000;
+}
+.quire-navbar a {
+  background-color: inherit;
+  color: #000 !important;
+}
+.quire-navbar-controls__right a {
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+}
+.quire-navbar .quire-navbar-controls__right svg {
+  height: calc(3rem * .75);
+  width: calc(3rem * .75);
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  margin-top: .75rem;
+}
+.quire-navbar-page-controls__item {
+  font-weight: 400;
+}
+.quire-navbar-controls__left a:hover, 
+.quire-navbar-controls__left button:hover, 
+.quire-navbar-controls__left .button:hover, 
+.quire-navbar-controls__right a:hover, 
+.quire-navbar-controls__right button:hover, 
+.quire-navbar-controls__right .button:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item a:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item button:hover, 
+.quire-navbar-controls .quire-navbar-page-controls__item .button:hover,
+.quire-navbar-controls .quire-navbar-page-controls__item a:hover * {
+  color: #666 !important;
+  background-color: inherit !important;
+}
+.quire-navbar-controls__left button {
+  cursor: pointer;
+}
+.quire-navbar-controls__left button:hover svg,
+.quire-navbar-controls__right a:hover svg {
+  fill: #999;
+}
+.quire-search__close-button:hover {
+  background-color: inherit;
+}
+.quire-search__close-button:hover svg {
+  fill: #999;
+}
+@media screen and (max-width: 700px) {
+  .next-prev-text {
+    display: none;
+  }
+}
+
+/* Hide footer buttons and add some white space to compensate */
+.quire-contents-buttons {
+  display: none;
+}
+#content {
+  margin-bottom: 140px;
+}
+
+/* Make search input font match rest of site */
+.quire-search__inner .input {
+  font-family: "Victor Mono", monospace;
+}
