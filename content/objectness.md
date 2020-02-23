@@ -28,7 +28,7 @@ For my part in this panel, “Experience, Traverse, Inhabit: Bringing a Sense of
 
 My premise in the talk is that when we’re reading books, our brains read them as places we inhabit. Our sense of a place is informed by our understanding of its objectness, meaning its scope, our position within that scope, and its position relative to other objects/places.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTq_pjUkSIXt1HZu8rY4seF7q9dqyHgUXJwB8mxc_tAGrvfRH9HJ5Qd17JOhq0o2yuEX0YG_crDDKkF/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="margin: 1rem 0; width: 100%; height: calc((100vw - 2rem) / 2.53);"></iframe>
+{{< slides "https://docs.google.com/presentation/d/e/2PACX-1vTq_pjUkSIXt1HZu8rY4seF7q9dqyHgUXJwB8mxc_tAGrvfRH9HJ5Qd17JOhq0o2yuEX0YG_crDDKkF/embed?start=false&loop=false&delayms=3000" "standard" >}}
 
 ## Session Description
 

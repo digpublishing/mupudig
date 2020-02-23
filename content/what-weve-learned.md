@@ -28,5 +28,4 @@ As indicated in its title, this talk really marked a transition point for my dig
 
 There are also five densely packed slides with links to all sorts of resources at the end of the deck!
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiP9kQWvt4wnWc45FUwzibeZOK3YNbvnhU8r_PR527WZNvOSKpugEkCYNlfCTGfd9dqrd0xYhvryx9/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="margin: 1rem 0; max-width: 100%; height: calc((100vw - 2rem) / 1.60535); max-height: 390px;"></iframe>
-
+{{< slides "https://docs.google.com/presentation/d/e/2PACX-1vSiP9kQWvt4wnWc45FUwzibeZOK3YNbvnhU8r_PR527WZNvOSKpugEkCYNlfCTGfd9dqrd0xYhvryx9/embed?start=false&loop=false&delayms=3000" >}}

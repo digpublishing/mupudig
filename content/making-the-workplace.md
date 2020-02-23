@@ -33,9 +33,7 @@ My co-conspirator on this, Annelisa Stephan, and I have put together a number of
 
 In the session, we gave a brief overview of our work and our aims, and then broke attendees into small groups to brainstorm and discuss their own goals and ideas.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 1rem;">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRWj1Ukt_PmV298XF87nymdfCnAEhZTl26xU6IwdbIdlnYjETg7vSK6tIBDXdSPlKyj5Lc7h7KfIHPM/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
-</div>
+{{< slides "https://docs.google.com/presentation/d/e/2PACX-1vRWj1Ukt_PmV298XF87nymdfCnAEhZTl26xU6IwdbIdlnYjETg7vSK6tIBDXdSPlKyj5Lc7h7KfIHPM/embed?start=false&loop=false&delayms=3000" >}}
 
 ## Session Description
 

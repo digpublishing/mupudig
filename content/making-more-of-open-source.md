@@ -26,7 +26,7 @@ This builds off of the [Mapping Open Source](/mapping-open-source/) project from
 - Mozilla’s [Open Leadership Program](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/)
 - [It Takes a Village](https://lyrasis.org/itav) guidebook from Lyrasis
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRNsT2JQiTlNMDCnWVn4WE3FPHdRCd1fZ3xhw1v4HO6EtFWjIoIYqJsq0fU6I3U3ckI6ONWR_7jjpvs/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="margin: 1rem 0; max-width: 100%; height: calc((100vw - 2rem) / 1.60535); max-height: 390px;"></iframe>
+{{< slides "https://docs.google.com/presentation/d/e/2PACX-1vRNsT2JQiTlNMDCnWVn4WE3FPHdRCd1fZ3xhw1v4HO6EtFWjIoIYqJsq0fU6I3U3ckI6ONWR_7jjpvs/embed?start=false&loop=false&delayms=3000" >}}
 
 ## Panel Description
 

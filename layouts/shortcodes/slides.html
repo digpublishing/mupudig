@@ -1,0 +1,21 @@
+{{/*
+
+  This is based on the youtube.html partial, but designed for
+  embedded Google Slides.
+  
+  To use it, you must go to the slide deck and select File > Publish to the web, and then get the full URL from the Embed option. This URL is then fed
+  into to the shortcode here.
+  
+  The padding-bottom calculation below is based on the standard 56.25%
+  for widescreen (16:9) presentations, plus the 29px height of Google’s
+  control bar at the bottom of the embed.
+  
+  For standard ratio presentations (4:3) you can include the word "standard"
+  as a second parameter in the shortcode.
+
+*/}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $class := .Get "class" | default (.Get 1) }}
+<div {{ with $class }}class="{{ . }}" {{ end }}style="position: relative; {{ if in $class "standard" }}padding-bottom: calc(75% + 29px){{ else }}padding-bottom: calc(56.25% + 29px){{ end }}; height: 0; overflow: hidden; margin-bottom: 1rem;">
+  <iframe src="{{ $id }}" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
+</div>
