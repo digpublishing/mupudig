@@ -75,7 +75,10 @@
 }
 .quire-page__header.hero__image-caption {
   font-size: .75em;
-  padding: .5rem;
+  padding: 0 .5rem;
+  display: block;
+  text-align: left;
+  user-select: text;
 }
 
 /* Style blockquotes to be a bit more graphic */

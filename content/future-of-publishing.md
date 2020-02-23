@@ -7,7 +7,7 @@ date: 2010-10-02
 location: Austin
 label: Talk
 image: pegasus.jpg
-image_caption: A pegasus because I thought I needed an over-extended digital publishing metaphor to impress people.
+image_caption: A pegasus, because an over-extended digital publishing metaphor always impresses.
 other_speakers:
   - Mary Virginia Swanson, author and photography consultant
   - Jace Graf, owner, Cloverleaf Studio

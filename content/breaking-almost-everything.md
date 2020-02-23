@@ -7,6 +7,7 @@ date: 2016-10-14
 location: New York
 label: Keynote Talk
 image: breaking.jpg
+image_caption: Three ingredients for producing a simple paper booklet.
 other_speakers:
   - Colby Chamberlain, Contributing Editor, Triple Canopy
   - Martina Droth, Deputy Director of Research and Curator of Sculpture, Yale Center for British Art; Editor, British Art Studies

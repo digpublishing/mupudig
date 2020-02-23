@@ -7,6 +7,7 @@ date: 2017-11-10
 location: Pittsburgh
 label: Project
 image: syllabus.jpg
+image_caption: Dot voting results on some of the categorized digital skills and literacies that participants had identified.
 other_speakers:
   - Kathryn Cody, Manager of IT Educational Technologies, J. Paul Getty Trust 
 links:

@@ -7,6 +7,7 @@ date: 2014-11-22
 location: Dallas
 label: Panel
 image: github.jpg
+image_caption: The [octocat](https://octodex.github.com/)!
 other_speakers:
   - Sara Angel, founding Director, Art Canada Institute / Institut de l’art du Canada
   - Curtis Fletcher, Project Manager, The Alliance for Networking Visual Culture 

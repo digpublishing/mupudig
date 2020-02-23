@@ -7,6 +7,7 @@ date: 2016-05-13
 location: Chicago
 label: Panel
 image: publish-button.jpg
+image_caption: An HTML “Publish” button.
 other_speakers:
   - Joseph Mohan, Associate Director of Production, The Art Institute of Chicago
   - Kris Thayer, Senior Designer, Minneapolis Institute of Art 

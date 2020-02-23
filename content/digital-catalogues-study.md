@@ -7,6 +7,7 @@ event: MCN
 location: San Diego
 label: Research 
 image: catalogues-study.jpg
+image_caption: Detail of a graphic from the report section, [Who is using the catalogues?](https://digpublishing.github.io/catalogues-study/marketing-and-demographics/who/).
 links:
   - title: Published Report
     options:

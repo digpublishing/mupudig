@@ -7,6 +7,7 @@ date: 2016-03-31
 location: Toronto
 label: Talk
 image: metal.jpg
+image_caption: Set lead type for letterpress printing on the left, and on the right, a page of HTML for digital publication.
 links:
   - title: Slides
     options:

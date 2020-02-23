@@ -7,6 +7,7 @@ date: 2012-11-10
 location: Seattle
 label: Talk
 image: startup.jpg
+image_caption: A startup stretching it’s cash to daring, maximum effect.
 other_speakers:
   - Sarah Hromack, Head of Digital Media, Whitney Museum of American Art
   - Erica Gangsei, Manager of Interpretive Media, San Francisco Museum of Modern Art 

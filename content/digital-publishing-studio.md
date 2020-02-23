@@ -7,7 +7,7 @@ date: 2015-11-04
 location: Minneapolis
 label: Workshop 
 image: studio.jpg
-image_caption: Warming up for the studio with Led Zeppelin’s *Four Sticks*
+image_caption: Warming up for the studio with Led Zeppelin’s *Four Sticks*.
 links:
 - title: Workshop Resources
   options:

@@ -7,6 +7,7 @@ date: 2012-04-01
 location: Toronto
 label: Talk
 image: artbooks.jpg
+image_caption: Books, artfully arranged.
 other_speakers:
   - Amy Ballmer, Graduate Center, City University of New York
   - Ray Anne Lockard, University of Pittsburgh

@@ -13,6 +13,7 @@ multi:
     location: Phoenix
 label: Talks
 image: photobooks.jpg
+image_caption: Camera illustration engravings. Camera illustration e-ink.
 links:
   - title: Full Presentation
     options:

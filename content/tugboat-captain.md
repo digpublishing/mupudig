@@ -7,6 +7,7 @@ date: 2014-11-19
 location: Dallas
 label: Lighting Talk
 image: clooney.jpg
+image_caption: Film still from *The Perfect Storm* (2000) featuring George Clooney as Captain Billy Tyne.
 links:
 - title: Video
   options:

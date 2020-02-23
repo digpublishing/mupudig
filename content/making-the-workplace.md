@@ -7,6 +7,7 @@ date: 2016-11-04
 location: New Orleans
 label: Workshop
 image: 1thing.jpg
+image_caption: "Everything you need: a simple worksheet, Sharpies, and candy."
 other_speakers:
   - Annelisa Stephan, Manager for Digital Engagement, J. Paul Getty Trust
 links:

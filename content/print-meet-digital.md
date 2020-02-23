@@ -7,6 +7,7 @@ date: 2013-11-21
 location: Montreal
 label: Panel
 image: bff.jpg
+image_caption: Rainbow “Best Friends Forever” necklace set.
 other_speakers:
   - Pamela Horn, Head of Cross-Platform Publishing, Cooper-Hewitt National Design Museum
   - Steven Waldron, Art Director/Creative Director, Harvard Art Museums
