@@ -226,7 +226,8 @@
 .quire-navbar-controls__right .button:hover, 
 .quire-navbar-controls .quire-navbar-page-controls__item a:hover, 
 .quire-navbar-controls .quire-navbar-page-controls__item button:hover, 
-.quire-navbar-controls .quire-navbar-page-controls__item .button:hover {
+.quire-navbar-controls .quire-navbar-page-controls__item .button:hover,
+.quire-navbar-controls .quire-navbar-page-controls__item a:hover * {
   color: #666 !important;
   background-color: inherit !important;
 }
