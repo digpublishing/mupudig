@@ -23,8 +23,8 @@ links:
     options:
       - link_type: PPTX
         link: /downloads/digital-catalogues-study--slides.pptx
-#      - link_type: PDF
-#        link: /downloads/digital-catalogues-study--slides.pdf
+      - link_type: PDF
+        link: /downloads/digital-catalogues-study--slides.pdf
 other_speakers:
   - Katie Reilly, William T. Ranney Director of Publishing, Philadelphia Museum of Art
   - Lauren Makholm, Assistant Director of Production, The Art Institute of Chicago
