@@ -163,9 +163,19 @@
   .quire-contents-list.grid ul li .card {
     border-top: 1px solid #777;
     min-height: inherit;
+    padding-top: 1rem;
   }
   .quire-page__header .hero-body {
     padding-left: 
+  }
+}
+@media screen and (max-width: 500px) {
+  .quire-contents .quire-page__content .container,
+  .quire-contents .quire-page__content .container.is-fullhd {
+    padding: 0 1.25rem;
+  }
+  .quire-contents .quire-page__content .container .content {
+    margin-top: 0;
   }
 }
 
@@ -173,6 +183,7 @@
 .quire-page__header .hero-body {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  padding-top: 4rem;
 }
 @media screen and (max-width: 500px) {
   .quire-page__header .hero-body {
@@ -243,6 +254,9 @@
 }
 .quire-search__close-button:hover svg {
   fill: #999;
+}
+.quire-navbar-page-controls__item.quire-home-page {
+  font-style: italic;
 }
 @media screen and (max-width: 700px) {
   .next-prev-text {
