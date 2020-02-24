@@ -60,6 +60,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 .quire-page__header {
   font-family: 'Victor Mono', monospace;
@@ -185,11 +186,15 @@
   padding-right: 2.5rem;
   padding-top: 4rem;
 }
+.quire-page__header .hero-body.hero-body--labeled {
+  padding-top: 1.5rem;
+}
 @media screen and (max-width: 500px) {
   .quire-page__header .hero-body {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
+  
 }
 
 /* Adjust list styling for CV page to remove bullets and margins */
