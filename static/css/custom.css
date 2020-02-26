@@ -269,12 +269,10 @@
   }
 }
 
-/* Hide footer buttons and add some white space to compensate */
+/* Style footer area which is now just text */
 .quire-contents-buttons {
-  display: none;
-}
-#content {
-  margin-bottom: 140px;
+  font-style: italic;
+  font-size: .875rem;
 }
 
 /* Make search input font match rest of site */
