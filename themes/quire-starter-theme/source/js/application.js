@@ -516,7 +516,7 @@ function toggleCite() {
 function pageSetup() {
   setDate();
   quickLinksSetup();
-  activeMenuPage();
+  // activeMenuPage();
   sliderSetup();
   navigationSetup();
   popupSetup(figureModal);
