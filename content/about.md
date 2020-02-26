@@ -21,10 +21,16 @@ type: info
       <img src="{{ $imgDir | relURL }}/icons/cc-by.png" alt="CC-BY" />
   </foreignObject>
 </switch>
+<switch>
+  <use xlink:href="#cc-by-nc"></use>
+  <foreignObject width="135" height="30">
+      <img src="{{ $imgDir | relURL }}/icons/cc-by-nc.png" alt="CC-BY-NC" />
+  </foreignObject>
+</switch>
 </svg>
 {{< /q-class >}}
 
-Except where otherwise noted, the content of this site is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Except where otherwise noted, the content of this site is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 This site was built with [Quire](https://gettypubs.github.io/quire/), a multiformat publishing tool currently under development at the Getty. The font used throughout is [Victor Mono](https://rubjo.github.io/victor-mono/) by Rune Bjørnerås.
 
