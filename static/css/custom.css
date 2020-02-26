@@ -22,11 +22,6 @@
   padding-top: 0;
 }
 
-/* Hide default arrow graphics on contents page */
-.quire-contents-list .menu-list a .arrow {
-  display: none;
-}
-
 /* Reduce default size of content grid headings */
 .quire-contents-list.grid ul li .card.no-image .card-content {
   font-size: 2em;
