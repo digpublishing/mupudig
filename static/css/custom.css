@@ -279,3 +279,10 @@
 .quire-search__inner .input {
   font-family: "Victor Mono", monospace;
 }
+
+/* Hopefully diable hover on iOS */
+.no-touch *:hover {
+  opacity: inherit;
+  color: inherit;
+  background-color: inherit;
+}
