@@ -9,7 +9,7 @@ type: info
 <!-- [*Download PDF*](/downloads/geealbers_cv.pdf) -->
 
 3445 Military Ave, Los Angeles, California 90034<br />
-<a href="tel:+15203312780">520) 331-2780</a> | geealbers@gmail.com<br />
+[520) 331-2780](tel:+15203312780) | [geealbers@gmail.com](mailto:geealbers@gmail.com)<br />
 Twitter and GitHub: @geealbers<br />
 
 ## Experience
