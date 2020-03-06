@@ -107,4 +107,4 @@ repository_url: https://github.com/geealbers/geealbers
 # Promo Image
 # ------------------------------------------------------------------------------
 
-promo_image: hello.png
+promo_image: /hello.png
